@@ -1,0 +1,2 @@
+# git-gut
+Code dangerously.
