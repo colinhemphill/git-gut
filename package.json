@@ -1,0 +1,27 @@
+{
+  "name": "git-gut",
+  "version": "0.1.0",
+  "description": "Code dangerously.",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "gut": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemphillcc/git-gut.git"
+  },
+  "keywords": [
+    "git",
+    "gut",
+    "dangerous"
+  ],
+  "author": "Colin Hemphill <colin@bombsheltersoftware.com> (http://bombsheltersoftware.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hemphillcc/git-gut/issues"
+  },
+  "homepage": "https://github.com/hemphillcc/git-gut#readme"
+}
