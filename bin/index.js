@@ -32,9 +32,8 @@ shell.exec('git remote', function (code, stdout, stderr) {
         });
       });
     }, function (err) {
-      console.log('done with all gutting');
+      console.log(asciiArt.style('YOU HAVE BEEN GUTTED', 'red_bg+white+bold', true));
       shell.exit(1);
     });
-
   });
 });
