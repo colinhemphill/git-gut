@@ -7,7 +7,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "gut": "index.js"
+    "gut": "bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/hemphillcc/git-gut/issues"
   },
-  "homepage": "https://github.com/hemphillcc/git-gut#readme"
+  "homepage": "https://github.com/hemphillcc/git-gut#readme",
+  "devDependencies": {
+    "node-github": "0.0.3"
+  }
 }
