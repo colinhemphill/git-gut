@@ -28,4 +28,5 @@ I am not responsible for any accidental damage or loss of Git repository due to 
 
 ## CHANGELOG
 
+- 0.1.1 Dependency updates.
 - 0.1.0 Initial release. In this version, Git Gut will hard reset your repository to the initial commit, then force push the new version to all remote repositories.
