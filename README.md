@@ -4,13 +4,21 @@
 
 Want to add a little danger to your coding life? Need something to keep you on your toes during a long work day? Are you a terrible person?
 
-If you said "yes" to any of the above, `git-gut` might be just what you were looking for.
+If you said "yes" to any of the above, Git Gut might be just what you were looking for.
 
-If you accidentally type the command `gut` in your terminal instead of `git`, your intended Git command will be completely ignored. Instead, your entire repository will be wiped, and your remote repository will be deleted! It's quite a handy tool!
+If you accidentally type the command `gut` in your terminal instead of `git`, your intended Git command will be completely ignored. Instead, all of your remote repositories will be gutted back to the initial commit! It's quite a handy tool!
+
+## How do I use it?
+
+```
+npm install -g git-gut
+```
+
+Then just use Git like usual. One of these days, you'll end up using Git Gut instead!
 
 ## Why? Just, why?
 
-Since the letters are right next to each other, I found myself accidentally typing in `gut` when I meant to write `git`. I thought it would be funny if the `gut` command actually did something. What better thing for `gut` to do than to completely gut the repository I was working on!
+Since the letters are right next to each other, I found myself accidentally typing in `gut` when I meant to write `git`. I thought it would be funny if the `gut` command actually did something. What better thing for `gut` to do than to completely gut the repository you were working on!
 
 ## DISCLAIMER
 
