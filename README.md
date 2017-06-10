@@ -1,3 +1,5 @@
+[![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![MIT License][license-image]][license-url]
+
 # Git Gut: Code Dangerously
 
 ## What is it?
@@ -31,3 +33,9 @@ I am not responsible for any accidental damage or loss of Git repository due to 
 - 0.1.2 Run a `git gc` command after the push, just to clean out as many files as we can ;)
 - 0.1.1 Dependency updates.
 - 0.1.0 Initial release. In this version, Git Gut will hard reset your repository to the initial commit, then force push the new version to all remote repositories.
+
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+[license-url]: https://github.com/colinhemphill/git-gut/blob/master/LICENSE
+[npm-downloads-image]: http://img.shields.io/npm/dm/git-gut.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/git-gut
+[npm-version-image]: http://img.shields.io/npm/v/git-gut.svg?style=flat-square
