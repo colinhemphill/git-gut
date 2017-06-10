@@ -28,7 +28,9 @@ shell.exec('git remote', function (code, stdout, stderr) {
       shell.exec(resetCommand, function (code, stdout, stderr) {
         var pushCommand = 'git push -u ' + remote + ' -f';
         shell.exec(pushCommand, function (code, stdout, stderr) {
-          return callback();
+          shell.exec('git gc --quiet --force', function (code, stdout, stderr) {
+            return callback();
+          });
         });
       });
     }, function (err) {

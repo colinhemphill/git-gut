@@ -1,6 +1,6 @@
 {
   "name": "git-gut",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Code dangerously.",
   "scripts": {
     "test": "grunt test"
@@ -24,12 +24,10 @@
     "url": "https://github.com/hemphillcc/git-gut/issues"
   },
   "homepage": "https://github.com/hemphillcc/git-gut#readme",
-  "devDependencies": {
-    "node-github": "0.0.3"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "ascii-art": "^1.4.2",
-    "async": "^2.3.0",
-    "shelljs": "^0.7.7"
+    "ascii-art": "1.x.x",
+    "async": "2.x.x",
+    "shelljs": "0.x.x"
   }
 }
