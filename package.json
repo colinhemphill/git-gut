@@ -26,8 +26,8 @@
   "homepage": "https://github.com/hemphillcc/git-gut#readme",
   "devDependencies": {},
   "dependencies": {
-    "ascii-art": "1.x.x",
-    "async": "2.x.x",
-    "shelljs": "0.x.x"
+    "ascii-art": "1.5.1",
+    "async": "2.6.3",
+    "shelljs": "0.8.3"
   }
 }
